@@ -259,7 +259,7 @@ dependencies = [
  "executor-types",
  "futures 0.3.8",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "num_cpus",
  "once_cell",
@@ -500,7 +500,7 @@ dependencies = [
  "diem-types",
  "diem-workspace-hack",
  "ir-to-bytecode",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "log",
  "move-core-types",
  "move-prover-test-utils",
@@ -781,7 +781,7 @@ dependencies = [
  "futures 0.3.8",
  "generate-key",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "k8s-openapi",
  "kube",
  "libra-canonical-serialization",
@@ -914,7 +914,7 @@ dependencies = [
  "executor-types",
  "fail",
  "futures 0.3.8",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "mirai-annotations",
  "network",
@@ -1788,7 +1788,7 @@ dependencies = [
  "diem-workspace-hack",
  "fail",
  "futures 0.3.8",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "mirai-annotations",
  "netcore",
@@ -2160,7 +2160,7 @@ dependencies = [
  "diem-proptest-helpers",
  "diem-workspace-hack",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "mirai-annotations",
  "move-core-types",
@@ -2311,7 +2311,7 @@ dependencies = [
  "diem-temppath",
  "diem-types",
  "diem-workspace-hack",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "num-derive",
  "num-traits",
@@ -2449,7 +2449,7 @@ dependencies = [
  "datatest-stable",
  "diem-temppath",
  "diem-workspace-hack",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "log",
  "move-prover",
  "move-prover-test-utils",
@@ -2643,7 +2643,7 @@ dependencies = [
  "executor-test-helpers",
  "executor-types",
  "fail",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "move-core-types",
  "once_cell",
@@ -2672,7 +2672,7 @@ dependencies = [
  "diemdb",
  "executor",
  "executor-types",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "rand 0.7.3",
  "rayon",
  "storage-client",
@@ -2848,7 +2848,7 @@ dependencies = [
  "diem-workspace-hack",
  "difference",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "language-e2e-tests",
  "mirai-annotations",
  "move-core-types",
@@ -3557,6 +3557,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.10.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "69ddb889f9d0d08a67338271fa9b62996bc788c7796a5c18cf057420aaed5eaf"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4172,7 +4181,7 @@ dependencies = [
  "futures 0.3.8",
  "handlebars",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "log",
  "move-ir-types",
  "move-lang",
@@ -5846,7 +5855,7 @@ dependencies = [
  "diem-infallible",
  "diem-types",
  "diem-workspace-hack",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "proptest",
 ]
 
@@ -6303,7 +6312,7 @@ dependencies = [
  "datatest-stable",
  "diem-types",
  "diem-workspace-hack",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "log",
  "move-core-types",
  "move-ir-types",
@@ -6358,7 +6367,7 @@ dependencies = [
  "executor-types",
  "fail",
  "futures 0.3.8",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "memsocket",
  "netcore",
@@ -6495,7 +6504,7 @@ dependencies = [
  "diem-state-view",
  "diem-types",
  "diem-workspace-hack",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "move-core-types",
  "scratchpad",
@@ -6518,7 +6527,7 @@ dependencies = [
  "diem-workspace-hack",
  "diemdb",
  "futures 0.3.8",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "libra-canonical-serialization",
  "proptest",
  "rand 0.7.3",
@@ -6738,7 +6747,7 @@ dependencies = [
  "diem-workspace-hack",
  "getrandom 0.2.0",
  "hex",
- "itertools 0.9.0",
+ "itertools 0.10.1",
  "language-e2e-tests",
  "mirai-annotations",
  "module-generation",
